@@ -1,0 +1,28 @@
+*{
+    color: white;
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+}
+.nav-links {
+    list-style: none;
+    display: inline-flex;
+    margin: 10px;
+    justify-content: space-between;    
+}
+li {
+    justify-content: space-between;
+    padding: 20px;
+}
+.btn{
+    border: black 2px solid;
+    box-shadow: 5px 5px black;
+    background-color: teal;
+    color: white;
+}
